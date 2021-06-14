@@ -4,6 +4,6 @@ package chap1_3;
 public class E01_03 {
 	public static void main(String[] args) {
 		//git上で公開されるので本名を避け著者を表示する \nは改行を表す
-		System.out.println("柴\n田\n　\n望\n洋");
+		System.out.println("柴\n田\n\n望\n洋");
 	}
 }
