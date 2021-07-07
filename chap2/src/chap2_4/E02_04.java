@@ -9,15 +9,15 @@ public class E02_04 {
 		// スキャナークラスのインスタンスを作成
 		Scanner stdIn = new Scanner(System.in);
 		// 整数値を読み込む
-		int Number = stdIn.nextInt();
+		int number = stdIn.nextInt();
 		// 変数を定義し10加えた値を代入する
-		int PlusNumber = Number + 10;
+		int plusNumber = number + 10;
 		// 変数を定義し10減じた値を代入する
-		int MinusNumber = Number - 10;
+		int minusNumber = number - 10;
 		// 画面に出力する
-		System.out.println("10を加えた値は"+ PlusNumber + "です");
+		System.out.println("10を加えた値は"+ plusNumber + "です");
 		// 画面に出力する
-		System.out.println("10を減じた値は"+ MinusNumber + "です");
+		System.out.println("10を減じた値は"+ minusNumber + "です");
 	}
 
 }
