@@ -9,13 +9,13 @@ public class E02_05 {
 		// スキャナークラスのインスタンスを作成
 		Scanner stdIn = new Scanner(System.in);
 		// 整数値を読み込む
-		double Number1 = stdIn.nextDouble();
+		double number1 = stdIn.nextDouble();
 		// 整数値を読み込む
-		double Number2 = stdIn.nextDouble();
+		double number2 = stdIn.nextDouble();
 		//合計値と平均値の変数を定義する
 		double sum,average;
 		//合計値を求める
-		sum = Number1 + Number2;
+		sum = number1 + number2;
 		//平均値を求める
 		average = sum / 2;
 		// 画面に出力する
