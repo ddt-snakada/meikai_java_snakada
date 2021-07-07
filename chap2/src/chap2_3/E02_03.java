@@ -9,9 +9,9 @@ public class E02_03 {
 		// スキャナークラスのインスタンスを作成
 		Scanner stdIn = new Scanner(System.in);
 		// 整数値を読み込む
-		int Number = stdIn.nextInt();
+		int number = stdIn.nextInt();
 		// 画面に出力する
-		System.out.println(Number + "と入力しましたね。");
+		System.out.println(number + "と入力しましたね。");
 	}
 
 }
