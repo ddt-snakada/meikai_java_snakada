@@ -8,7 +8,7 @@ package chap03_07;
 import java.util.Scanner;
 public class E03_07 {
 	public static void main(String[] args){
-		// スキャナクラスのインスタンスを生成する
+		//スキャナクラスのインスタンスを生成する
 		Scanner stdIn = new Scanner(System.in);
 		//読み込みの表示
 		System.out.print("整数値:");

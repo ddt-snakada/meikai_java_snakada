@@ -14,14 +14,13 @@ public class E03_08 {
 		//数値の読み込み
 		int point = stdIn.nextInt();
 		//80以上の場合
-		if(point>=80){
+		if(point >= 80){
 			//優を出力する
 			System.out.println("優");
 		//70以上の場合
 		}else if(point >= 70){
 			//良を出力する
-			System.out.println("良");
-					
+			System.out.println("良");			
 		//60以上の場合
 		}else if(point >= 60){
 			//可を出力する
