@@ -13,8 +13,11 @@ public class E03_08 {
 		System.out.println("読み込む数値:");
 		//数値の読み込み
 		int point = stdIn.nextInt();
-		//80以上の場合
-		if(point >= 80){
+		//100より大きい場合
+		if(point > 100){
+			//判定不可を出力する
+			System.out.println("判定できない点数が入力されました");
+		}else if(point >= 80){
 			//優を出力する
 			System.out.println("優");
 		//70以上の場合
@@ -25,11 +28,15 @@ public class E03_08 {
 		}else if(point >= 60){
 			//可を出力する
 			System.out.println("可");
-		//それ以外の場合不可を出力する
-		}else{
+		//0以上の場合
+		}else if(point >= 0){
+			//不可を出力する
 			System.out.println("不可");
+		//上記以外の条件の場合
+		}else{
+			//判定不可を出力する
+			System.out.println("判定できない点数が入力されました");
 		}
-		
 	}
 
 }
