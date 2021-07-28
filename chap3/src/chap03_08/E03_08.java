@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class E03_08 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 	    //スキャナークラスのインスタンスを作成する
 		Scanner stdIn = new Scanner(System.in);
 		//読み込みの出力
@@ -14,20 +14,20 @@ public class E03_08 {
 		//数値の読み込み
 		int point = stdIn.nextInt();
 		//80以上の場合
-		if(point>=80) {
+		if(point>=80){
 			//優を出力する
 			System.out.println("優");
 		//70以上の場合
-		}else if (point >= 70) {
+		}else if(point >= 70){
 			//良を出力する
 			System.out.println("良");
 					
 		//60以上の場合
-		}else if (point >= 60) {
+		}else if(point >= 60){
 			//可を出力する
 			System.out.println("可");
 		//それ以外の場合不可を出力する
-		}else {
+		}else{
 			System.out.println("不可");
 		}
 		
