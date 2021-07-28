@@ -10,12 +10,12 @@ public class E03_11 {
 		// スキャナクラスのインスタンスを生成する
 		Scanner stdIn = new Scanner(System.in);
 		//Aの読み込みの表示
-		System.out.print("整数値A:");
-		//テキスト指定の整数値Aを読み込む
+		System.out.print("整数A:");
+		//テキスト指定の整数Aを読み込む
 		int intNumberA = stdIn.nextInt();
 		//読み込みの表示
-		System.out.print("整数値B:");
-		//テキスト指定の整数値Bを読み込む
+		System.out.print("整数B:");
+		//テキスト指定の整数Bを読み込む
 		int intNumberB = stdIn.nextInt();
 		//A-Bを求め変数に代入する
 		int difference = intNumberA - intNumberB;
@@ -26,7 +26,7 @@ public class E03_11 {
 		//それ以外の場合
 		}else {
 			//差が10以上を出力
-			System.out.println("それらの差は10以上です。");
+			System.out.println("それらの差は11以上です。");
 		}
 	}
 
