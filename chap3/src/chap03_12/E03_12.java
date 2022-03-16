@@ -21,10 +21,16 @@ public class E03_12 {
 		int intNumberC = stdIn.nextInt();
 		//最小値を入れる変数
 		int min = intNumberA;
-		//BがAより小さい場合は最小値をBに更新する
-		if(intNumberB < intNumberA) min = intNumberB;
-		//CがBより小さい場合は最小値をBに更新する
-		if(intNumberC < intNumberB) min = intNumberC;
+		//BがAより小さい場合
+		if(intNumberB < intNumberA) {
+			//最小値をBに更新する
+			min = intNumberB;
+		}
+		//CがBより小さい場合
+		if(intNumberC < intNumberB) {
+			//最小値をBに更新する
+			min = intNumberC;
+		}
 		//最小値を出力する
 		System.out.print("最小値:" + min);
 	}
