@@ -18,7 +18,7 @@ public class E04_15 {
 		int endNumber = stdIn.nextInt();
 		//入力の促し
 		System.out.println("何cmごと：");
-		//終わりを定義する
+		//間隔を定義する
 		int everyNumber = stdIn.nextInt();
 		//標準体重を定義する
 		double normalWeight;
