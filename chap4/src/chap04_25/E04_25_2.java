@@ -1,9 +1,10 @@
-/*正の整数値を読み込み、それが素数であるかどうかを判定するプログラムを作成せよ。素数とは2以上n未満のいずれの数でも割り切れない整数nのことである*/
+/*合計でなく平均も求めるようにlist4-17およびlist4-18のプログラムを書き換えよ*/
 package chap04_25;
 
 import java.util.Scanner;
 
 public class E04_25_2 {
+	//list4-18のプログラム
 	public static void main(String[] args) {
 		// スキャナクラスのインスタンスを生成する
 		Scanner stdIn = new Scanner(System.in);
