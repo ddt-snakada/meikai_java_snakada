@@ -3,8 +3,6 @@
 横にならべて表示するプログラムを作成せよ*/
 package chap05_06;
 
-import java.util.Scanner;
-
 public class E05_06 {
 	public static void main(String[] args) {	
 		//ヘッダ部分の表示
