@@ -25,12 +25,12 @@ public class E04_27 {
 		// 間違えた回数の定義
 		int wrongCount = 0;
 		// 入力からヒントまでをループする
-		do {			
-			// 間違えカウントが制限と同値になった場合
-			if (wrongCount == limitCount) {
+		do {
+			// 制限回数と間違えの回数が一致した場合
+			if (limitCount == wrongCount) {
 				// 答えを表示する
 				System.out.println("答えは" + correctAnswer + "です。");
-				// 数あてのループから抜ける
+				// ループを抜ける
 				break;
 			}
 			// 問いかけ
@@ -49,13 +49,11 @@ public class E04_27 {
 			} else {
 				// 正解であることを表示する
 				System.out.println("正解です。");
-				// ループから抜ける
-				break;
 			}
 			// 間違えたカウントを追加する
 			wrongCount++;
-			// 無限ループする 
-		} while (true);
+			// 正解までループする
+		} while ( enteredNumber != correctAnswer );
 	}
 
 }
