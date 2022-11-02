@@ -17,13 +17,15 @@ public class E06_04 {
 		int n = stdIn.nextInt();
 		// テキスト通りに記述
 		int[] a = new int[n];
+		// 定数の追加
+		final int RANDOM_MAX = 10;
 		// テキスト通りに記述
 		for (int i = 0; i < n; i++) {
 			// テキスト通りに記述
-			a[i] = 1 + rand.nextInt(10);
+			a[i] = 1 + rand.nextInt(RANDOM_MAX);
 		}
 		// 乱数で生成される最大値だけloopする　最上段から表示していくためデクリメントしていく
-		for (int i = 10 ; i > 0; i--) {
+		for (int i = RANDOM_MAX ; i > 0; i--) {
 			// 配列の要素数だけループする
 			for (int j = 0; j < n ; j++) {
 				// 配列の中身が現在の段番号以上の場合
@@ -49,7 +51,7 @@ public class E06_04 {
 		// インデックスを10で割った値を表示する
 		for (int loopI = 0 ; loopI < n; loopI++) {
 			// * を表示する
-			System.out.print(loopI%10 + " ");
+			System.out.print(loopI%RANDOM_MAX + " ");
 		}
 	}
 
